@@ -34,7 +34,7 @@ export function Hero() {
   id="hero"
   onContextMenu={(e) => e.preventDefault()}
   draggable={false}
-  className="select-none pointer-events-none relative min-h-screen flex items-center justify-center bg-cover bg-center"
+  className="select-none relative min-h-screen flex items-center justify-center bg-cover bg-center"
   style={{
     backgroundImage: `
       url('/images/profile-mobile.jpg')`,
