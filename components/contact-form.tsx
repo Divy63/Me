@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { toast } from "@/components/ui/use-toast"
 import { SectionHeading } from "./section-heading"
-import { sendEmail } from "@/lib/actions"
+import { sendEmail } from "@/lib/sendEmail"
 import { Loader2, Mail, Send } from "lucide-react"
 
 type FormState = {

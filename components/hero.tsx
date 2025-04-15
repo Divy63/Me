@@ -30,13 +30,24 @@ export function Hero() {
   ]
 
   return (
-    <section
-      id="hero"
-      className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
-      style={{
-        backgroundImage: `url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80')`,
-      }}
-    >
+<section
+  id="hero"
+  onContextMenu={(e) => e.preventDefault()}
+  draggable={false}
+  className="select-none pointer-events-none relative min-h-screen flex items-center justify-center bg-cover bg-center"
+  style={{
+    backgroundImage: `
+      url('/images/profile-mobile.jpg')`,
+  }}
+>
+  <style jsx>{`
+    @media (min-width: 768px) {
+      #hero {
+        background-image: url('/images/profile-desktop.jpg');
+      }
+    }
+  `}</style>
+
       {/* Overlay - less dark now */}
       <div className="absolute inset-0 bg-gradient-to-b from-slate-500/90 to-slate-800/90"></div>
 
