@@ -36,7 +36,7 @@ const toolsAndDatabases = ["MongoDB", "SQLite3", "MySQL", "MS SQL", "Neo4j", "Po
               </div>
               <p className="text-slate-600 mb-6">
                 I'm currently pursuing a Bachelor of Science with a Major in Computer Science at the University of
-                Manitoba (January 2022 - Present) with a GPA of 3.82/4.50.
+                Manitoba (January 2022 - Present) with a GPA of 3.84/4.50.
               </p>
               <p className="text-slate-600 mb-6">
                 As a computer science student with a passion for gaming and travel, I blend technical expertise with
