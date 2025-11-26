@@ -3,11 +3,11 @@ import { User, GraduationCap, Award } from "lucide-react";
 import { ScrollReveal } from "./scroll-reveal";
 
 export function Skills() {
-const codingLanguages = ["Java", "Python", "C++", "JavaScript", "C", "R", "Prolog", "LC3", "HTML", "CSS", "XML", "TypeScript"];
+const codingLanguages = ["Java", "Python", "C++", "JavaScript", "C", "R", "Groovy","Prolog", "LC3", "HTML", "CSS", "XML", "TypeScript"];
 
 const frameworksAndLibraries = ["React.js", "Next.js", "Express.js", "Node.js", "Tailwind CSS", "Bootstrap","Spring Boot", "Socket.io", "REST APIs", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "Jest", "JUnit"];
 
-const toolsAndDatabases = ["MongoDB", "SQLite3", "MySQL", "MS SQL", "Neo4j", "PostgreSQL", "HSQLDB","Git", "GitHub", "Unix", "Docker", "Android Studio", "VS Code", "RStudio", "CI/CD Pipelines"];
+const toolsAndDatabases = ["MongoDB", "SQLite3", "MySQL", "MS SQL", "Neo4j", "PostgreSQL", "HSQLDB","Git", "GitHub","Azure DevOps","Unix", "Docker", "Android Studio", "VS Code", "RStudio","ServiceNow","Katalon Studio", "CI/CD Pipelines"];
 
 
   const renderSkills = (skills) =>
