@@ -14,6 +14,27 @@ export function WorkExperience() {
 
 
         <div className="max-w-3xl mx-auto">
+          
+<div className="relative pl-8 sm:pl-32 py-6 group">
+            <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-200 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-4 after:h-4 after:bg-blue-600 after:border-4 after:box-content after:border-white after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+              <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-blue-600 bg-blue-100 rounded-full">
+                Present
+              </time>
+              <div className="text-xl font-bold text-slate-800">QA Analyst Co-op</div>
+            </div>
+            <div className="flex items-center text-slate-500 mb-1">
+              <Calendar className="h-4 w-4 mr-1" />
+              <span>G3 Canada Limited, Winnipeg, Manitoba | September 2025 - Present</span>
+            </div>
+            <ul className="text-slate-600 mt-3 list-disc list-inside space-y-1">
+              <li>Collaborate in 2-week Agile sprints, managing tasks through ServiceNow Agile board (Kanban backend).</li>
+              <li>Design and execute test cases (happy and edge paths) and perform manual testing of in-house applications.</li>
+              <li>Report and track defects with developers to ensure product readiness for release.</li>
+              <li>Automate test cases using Katalon Studio to reduce manual effort and improve regression efficiency.</li>
+              <li>Contribute to testing improvements by providing workflow feedback and participating in sprint retrospectives.</li>
+            </ul>
+          </div>
+
           <div className="relative pl-8 sm:pl-32 py-6 group">
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-200 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-4 after:h-4 after:bg-blue-600 after:border-4 after:box-content after:border-white after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
               <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-blue-600 bg-blue-100 rounded-full">
