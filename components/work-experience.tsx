@@ -41,7 +41,7 @@ export function WorkExperience() {
             </div>
             <div className="flex items-center text-slate-500 mb-1">
               <Calendar className="h-4 w-4 mr-1" />
-              <span>G3 Canada Limited, Winnipeg, Manitoba | January 2026 - April 2026</span>
+              <span>G3 Canada Limited, Winnipeg, Manitoba | January 2026 - April 2026 </span>
             </div>
             <ul className="text-slate-600 mt-3 list-disc list-inside space-y-1">
              <li>Implemented and delivered user stories end to end across both backend (ServiceNow) and frontend (React) applications, ensuring alignment with business and technical requirements.</li>
