@@ -7,7 +7,7 @@ const codingLanguages = ["Java", "Python", "C++", "JavaScript", "C", "R", "Groov
 
 const frameworksAndLibraries = ["React.js", "Next.js", "Express.js", "Node.js", "Tailwind CSS", "Bootstrap","Spring Boot", "Socket.io", "REST APIs", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "Jest", "JUnit"];
 
-const toolsAndDatabases = ["MongoDB", "SQLite3", "MySQL", "MS SQL", "Neo4j", "PostgreSQL", "HSQLDB","Git", "GitHub","Azure DevOps","Unix", "Docker", "Android Studio", "VS Code", "RStudio","ServiceNow","Katalon Studio", "CI/CD Pipelines"];
+const toolsAndDatabases = ["Snowflake","MongoDB", "SQLite3", "MySQL", "MS SQL", "Neo4j", "PostgreSQL", "HSQLDB","Git", "GitHub","Azure DevOps","Unix", "Docker", "Android Studio", "VS Code", "RStudio","ServiceNow","Katalon Studio", "CI/CD Pipelines"];
 
 
   const renderSkills = (skills) =>
