@@ -14,22 +14,23 @@ export function WorkExperience() {
 
 
         <div className="max-w-3xl mx-auto">
-        <div className="relative pl-8 sm:pl-32 py-6 group">
+                    <div className="relative pl-8 sm:pl-32 py-6 group">
             <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-200 sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-4 after:h-4 after:bg-blue-600 after:border-4 after:box-content after:border-white after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
               <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-blue-600 bg-blue-100 rounded-full">
                 Present
               </time>
-              <div className="text-xl font-bold text-slate-800">Software Developer</div>
+              <div className="text-xl font-bold text-slate-800">Data Analyst Co-op</div>
             </div>
             <div className="flex items-center text-slate-500 mb-1">
               <Calendar className="h-4 w-4 mr-1" />
-              <span>G3 Canada Limited, Winnipeg, Manitoba | May 2026 - Present</span>
+              <span>Bison Transport, Winnipeg, Manitoba | September 2026 - Present</span>
             </div>
             <ul className="text-slate-600 mt-3 list-disc list-inside space-y-1">
-             <li>Implemented and delivered user stories end to end across both backend (ServiceNow) and frontend (React) applications, ensuring alignment with business and technical requirements.</li>
-            <li>Built and updated React-based frontend components, collaborating with stakeholders to deliver functional and user-friendly interfaces.</li>
-            <li>Collaborated within Agile, sprint-based teams, participating in backlog grooming, sprint reviews, and retrospectives to support timely and high-quality deliveries.</li> 
-            <li>Worked closely with developers, QA, and product teams to debug issues, verify fixes, and deploy solutions, contributing to smoother releases and reduced defects.</li>
+              <li>Analyze transportation and operational data using SQL to support reporting, business analysis, and data-driven decision making.</li>
+              <li>Query and work with data warehouse tables to investigate business questions, validate data, and develop reliable metrics.</li>
+              <li>Build and refine SQL logic for operational KPIs, including fuel spend, fuel efficiency, mileage, and order-level metrics.</li>
+              <li>Collaborate with business and analytics teams to understand requirements, troubleshoot data issues, and translate them into actionable insights.</li>
+              <li>Develop and improve reports and dashboards by connecting data from multiple sources and ensuring consistency between SQL and existing business logic.</li>
             </ul>
           </div>
           <div className="relative pl-8 sm:pl-32 py-6 group">
@@ -37,11 +38,11 @@ export function WorkExperience() {
               <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-blue-600 bg-blue-100 rounded-full">
                 April 2026
               </time>
-              <div className="text-xl font-bold text-slate-800">Software Developer Co-op</div>
+              <div className="text-xl font-bold text-slate-800">Software Developer Co-op & Parttime</div>
             </div>
             <div className="flex items-center text-slate-500 mb-1">
               <Calendar className="h-4 w-4 mr-1" />
-              <span>G3 Canada Limited, Winnipeg, Manitoba | January 2026 - April 2026 </span>
+              <span>G3 Canada Limited, Winnipeg, Manitoba | January 2026 - August 2026 </span>
             </div>
             <ul className="text-slate-600 mt-3 list-disc list-inside space-y-1">
              <li>Implemented and delivered user stories end to end across both backend (ServiceNow) and frontend (React) applications, ensuring alignment with business and technical requirements.</li>
